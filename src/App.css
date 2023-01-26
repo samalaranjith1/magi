@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+/* styling for form in main */
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.column {
+  text-align: center;
+  border: 2px solid red;
+}
+.column div{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.header-container{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin h2{
+  text-align: center;
+  color:red;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  color: white;
+  background-color: red;
+  padding: 10px;
+
+}
+.mainTab {
+  border-bottom: rgb(225, 38, 166);
+}
+
+.bodyTab{
+  border: 4px solid rgb(225, 38, 166);
+  border-radius: 20px;
+}
+
+input{
+  border-color: rgb(225,38,166);
+  border-top-color: rgb(225,38,166);
+  border-width: 3px;
+  height: 25px;
+  border-radius: 10px;
+  width: 200px;
+}
+form input{
+  display: flex;
+  justify-content: flex-end;
+
+}
